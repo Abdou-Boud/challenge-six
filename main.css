@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Very-light-gray: hsl(0, 0%, 95%); 
+    --Transparent-white:  hsla(0, 0%, 100%, 0.75);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5;
+}
+main {
+    width: 70%;
+    margin: 4em auto 0;
+    display: flex;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+main .card {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    
+}
+main .card h1, button {
+    color: var(--Very-light-gray);
+}
+.card p {
+    color: var(--Transparent-white);
+}
+button {
+    width: 8em;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 3em;
+    transition: .4s ease;
+}
+
+main .orange {
+   background-color: var(--Bright-orange);
+}
+.orange button {
+    color: var(--Bright-orange);
+}
+.orange button:hover {
+    background-color: var(--Bright-orange);
+}
+main .green-cold {
+   background-color: var(--Dark-cyan);
+}
+.green-cold button {
+    color: var(--Dark-cyan);
+}
+.green-cold button:hover {
+    background-color: var(--Dark-cyan);
+}
+main .green-black {
+   background-color: var(--Very-dark-cyan);
+}
+.green-black button {
+    color: var(--Very-dark-cyan);
+}
+.green-black button:hover {
+    background-color: var(--Very-dark-cyan);
+}
+
+button:hover {
+    color: var(--Very-light-gray);
+    border: 2px solid var(--Transparent-white);
+    cursor: pointer;
+}
