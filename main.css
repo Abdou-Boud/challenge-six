@@ -11,9 +11,7 @@
 
 body {
     font-size: 15px;
-    font-family: 'Big Shoulders Display', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 main {
     width: 70%;
@@ -29,11 +27,18 @@ main .card {
     padding: 3em;
     
 }
+.card h1 {
+    font-weight: normal;
+    font-family: 'Big Shoulders Display', sans-serif;
+    
+}
 main .card h1, button {
     color: var(--Very-light-gray);
 }
 .card p {
     color: var(--Transparent-white);
+    font-size: 1.3rem;
+    font-family: 'Lexend Deca', sans-serif;
 }
 button {
     width: 8em;
