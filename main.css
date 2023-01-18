@@ -14,7 +14,7 @@ body {
     line-height: 1.8;
 }
 main {
-    width: 70%;
+    width: 80%;
     margin: 4em auto 0;
     display: flex;
     border-radius: .5rem;
@@ -22,14 +22,12 @@ main {
 }
 main .card {
     width: calc(100% / 3);
-    display: flex;
-    flex-direction: column;
     padding: 3em;
-    
 }
 .card h1 {
     font-weight: normal;
     font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2rem;
     
 }
 main .card h1, button {
@@ -37,16 +35,20 @@ main .card h1, button {
 }
 .card p {
     color: var(--Transparent-white);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Lexend Deca', sans-serif;
 }
 button {
-    width: 8em;
-    padding: 1rem;
+    width: 10em;
+    height: 3em;
     border: none;
     border-radius: 1rem;
     margin-top: 6em;
-    transition: .4s ease;
+    transition: .6s ;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
 }
 
 main .orange {
@@ -81,4 +83,5 @@ button:hover {
     color: var(--Very-light-gray);
     border: 2px solid var(--Transparent-white);
     cursor: pointer;
+
 }
