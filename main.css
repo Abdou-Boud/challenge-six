@@ -31,7 +31,7 @@ main .card {
     flex-direction: column;
 }
 .card .text {
-    height: 30em;
+    height: 20em;
     margin-bottom: 5em;
 }
 .card h1 {
