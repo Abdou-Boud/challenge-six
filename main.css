@@ -21,7 +21,7 @@ main {
     width: 80%;
     margin: 4em auto 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     border-radius: .5rem;
     overflow: hidden;
 }
