@@ -35,7 +35,7 @@ main .card h1, button {
 }
 .card p {
     color: var(--Transparent-white);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Lexend Deca', sans-serif;
 }
 button {
